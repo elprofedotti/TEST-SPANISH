@@ -7,6 +7,13 @@
     --color-blanco: #fff; /* Blanco */
     --color-negro: #000; /* Negro */
 }
+@font-face {
+    font-family: 'copada';
+    src: url('/fuentes/DenkOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.copada{    font-family: 'copada';}
 
 body {
     margin: 0;
@@ -428,6 +435,7 @@ color: var(--color-secundario);
     border: 6px solid var(--color-borde);
     border-radius: 25px;
     max-width: 360px;
+    margin-top: 90px;
 }
 
 .about-us p, h2{
@@ -502,6 +510,9 @@ color: var(--color-secundario);
         padding-top: 60px;
     }
 
+    .about-us img{
+        margin-top: 0;
+    }
 }
 
 /*BENEFICIOS*/
@@ -918,6 +929,8 @@ color: var(--color-secundario);
     transform: translateX(-50%);
     background-color: var(--color-blanco);
     color: var(--color-secundario);
+    font-style: italic;
+    font-weight: 700;
     padding: 5px 15px;
     border-radius: 6px;
     text-transform: uppercase;
