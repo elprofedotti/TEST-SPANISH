@@ -525,17 +525,17 @@ color: var(--color-secundario);
 
 .benefits-section {
     position: relative;
-    background-image: url('/imagenes/BACKGROUND\ BENEFITS.jpg');
+    background-image: url('/imagenes/BACKGROUNDBENEFITS.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     color: var(--color-blanco);
-    
     min-height: 300px;
     padding-top: 90px;
     padding-bottom: 30px;
 }
+
 
 /* Capa oscura semitransparente */
 .benefits-section::before {
@@ -860,7 +860,7 @@ color: var(--color-secundario);
 /*TESTIMONIO*/
 .fondoTesti{
     position: relative;
-    background-image: url('/imagenes/fondoTesti.webp');
+    background-image: url('/imagenes/fondoTesti.jpg');
     padding: 90px 60px 90px 60px;
     background-position: center;
     background-repeat: no-repeat;
