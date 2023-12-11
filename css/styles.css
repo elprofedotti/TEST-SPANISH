@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: 'copada';
-    src: url('/fuentes/DenkOne-Regular.ttf') format('truetype');
+    src: url('../fuentes/DenkOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -525,7 +525,7 @@ color: var(--color-secundario);
 
 .benefits-section {
     position: relative;
-    background-image: url('/imagenes/BACKGROUNDBENEFITS.jpg');
+    background-image: url('../imagenes/BACKGROUNDBENEFITS.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -860,7 +860,7 @@ color: var(--color-secundario);
 /*TESTIMONIO*/
 .fondoTesti{
     position: relative;
-    background-image: url('/imagenes/fondoTesti.jpg');
+    background-image: url('../imagenes/fondoTesti.jpg');
     padding: 90px 60px 90px 60px;
     background-position: center;
     background-repeat: no-repeat;
